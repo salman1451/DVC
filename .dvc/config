@@ -1,0 +1,4 @@
+[core]
+    remote = s3remote
+['remote "s3remote"']
+    url = C:/Users/Salman Ahmed/Desktop/MLops/DVC/S3
