@@ -11,6 +11,10 @@ new_roc_loc={'Name': 'salman','Age': 28,'City': 'San Francisco'}
 
 df.loc[len(df.index)] = new_roc_loc
 
+new_roc_loc={'Name': 'hammad','Age': 22,'City': 'abtd'}
+
+df.loc[len(df.index)] = new_roc_loc
+
 data_dir='data'
 os.makedirs(data_dir, exist_ok=True)
 file_path=os.path.join(data_dir, 'sample_data.csv')
